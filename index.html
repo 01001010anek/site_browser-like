@@ -6,30 +6,40 @@
     <title>Moja Strona</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="browser-window">
-        <div class="tabs">
-            <div class="tab" onclick="openTab('o_mnie')">O mnie</div>
-            <div class="tab" onclick="openTab('umiejetnosci')">Umiejętności</div>
-            <div class="tab" onclick="openTab('doswiadczenie')">Doświadczenie</div>
-            <div class="tab" onclick="openTab('kontakt')">Kontakt</div>
+<body style="background-image: url('tlo.jpg'); background-size: cover; background-repeat: no-repeat;">
+    <!--Zdjęcie dodane przez Giuseppe  Di Maria : https://www.pexels.com/pl-pl/zdjecie/las-drzewa-rzeka-gleboki-13596905/-->
+    <div class="window-frame">
+        <div class="title-bar">
+            <div class="buttons">
+                <div class="button close" onclick="closeWindow()"></div>
+                <div class="button minimize" onclick="minimizeWindow()"></div>
+                <div class="button maximize" onclick="maximizeWindow()"></div>
+            </div>
         </div>
-        <div class="content">
-            <div id="o_mnie" class="tabcontent">
-                <h2>O mnie</h2>
-                <p>Tutaj umieść informacje o sobie.</p>
+        <div class="browser-window">
+            <div class="tabs">
+                <div class="tab active" onclick="openTab('o_mnie')">O mnie</div>
+                <div class="tab" onclick="openTab('umiejetnosci')">Umiejętności</div>
+                <div class="tab" onclick="openTab('doswiadczenie')">Doświadczenie</div>
+                <div class="tab" onclick="openTab('kontakt')">Kontakt</div>
             </div>
-            <div id="umiejetnosci" class="tabcontent">
-                <h2>Umiejętności</h2>
-                <p>Tutaj umieść informacje o swoich umiejętnościach.</p>
-            </div>
-            <div id="doswiadczenie" class="tabcontent">
-                <h2>Doświadczenie</h2>
-                <p>Tutaj umieść informacje o swoim doświadczeniu zawodowym.</p>
-            </div>
-            <div id="kontakt" class="tabcontent">
-                <h2>Kontakt</h2>
-                <p>Tutaj umieść informacje kontaktowe.</p>
+            <div class="content">
+                <div id="o_mnie" class="tabcontent active">
+                    <h2>O mnie</h2>
+                    <p>Tutaj umieść informacje o sobie.</p>
+                </div>
+                <div id="umiejetnosci" class="tabcontent">
+                    <h2>Umiejętności</h2>
+                    <p>Tutaj umieść informacje o swoich umiejętnościach.</p>
+                </div>
+                <div id="doswiadczenie" class="tabcontent">
+                    <h2>Doświadczenie</h2>
+                    <p>Tutaj umieść informacje o swoim doświadczeniu zawodowym.</p>
+                </div>
+                <div id="kontakt" class="tabcontent">
+                    <h2>Kontakt</h2>
+                    <p>Tutaj umieść informacje kontaktowe.</p>
+                </div>
             </div>
         </div>
     </div>
