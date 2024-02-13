@@ -90,3 +90,13 @@ body {
 h2, p {
     color: #f1f1f1;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px; /* Dodatkowy margines wewnątrz stopki dla estetyki */
+    width: 100%;
+    color: #5f6206;
+}
