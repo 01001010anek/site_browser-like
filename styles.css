@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.browser-window {
+    background-color: #333;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
