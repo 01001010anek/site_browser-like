@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="browser-window">
+        <div class="tabs">
+            <div class="tab" onclick="openTab('o_mnie')">O mnie</div>
+            <div class="tab" onclick="openTab('umiejetnosci')">Umiejętności</div>
+            <div class="tab" onclick="openTab('doswiadczenie')">Doświadczenie</div>
+            <div class="tab" onclick="openTab('kontakt')">Kontakt</div>
+        </div>
+        <div class="content">
+            <div id="o_mnie" class="tabcontent">
+                <h2>O mnie</h2>
+                <p>Tutaj umieść informacje o sobie.</p>
+            </div>
+            <div id="umiejetnosci" class="tabcontent">
+                <h2>Umiejętności</h2>
+                <p>Tutaj umieść informacje o swoich umiejętnościach.</p>
+            </div>
+            <div id="doswiadczenie" class="tabcontent">
+                <h2>Doświadczenie</h2>
+                <p>Tutaj umieść informacje o swoim doświadczeniu zawodowym.</p>
+            </div>
+            <div id="kontakt" class="tabcontent">
+                <h2>Kontakt</h2>
+                <p>Tutaj umieść informacje kontaktowe.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
