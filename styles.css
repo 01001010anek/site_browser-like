@@ -53,8 +53,6 @@ body {
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
     overflow: hidden;
 }
 
@@ -69,7 +67,7 @@ body {
     color: #333;
     text-align: center;
     cursor: pointer;
-    border-right: 1px solid #c2c2c2;
+
 }
 
 .tab:last-child {
@@ -89,6 +87,6 @@ body {
     display: block;
 }
 
-h2 {
-    color: #000;
+h2, p {
+    color: #f1f1f1;
 }
