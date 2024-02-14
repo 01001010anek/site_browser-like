@@ -8,4 +8,4 @@ Przed użyciem tej strony jakkolwiek w internecie należy zmienić w linii 26
 na
 ```html
 <div class="content">
-```.
+```
